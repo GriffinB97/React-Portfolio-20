@@ -130,6 +130,91 @@ p {
   text-decoration: underline;
 }
 
+/* Contact Section */
+#contact {
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.9rem;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Resume Section */
+#resume {
+  padding: 20px;
+  text-align: center;
+}
+
+#resume ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#resume ul li {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+#resume a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#resume a:hover {
+  text-decoration: underline;
+}
+
 /* Media Queries for Tablets and Larger Screens */
 @media (min-width: 600px) {
   header h1 {

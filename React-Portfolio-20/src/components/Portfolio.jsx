@@ -6,16 +6,16 @@ import project2Image from '../assets/project2.png';
 function Portfolio() {
   const projects = [
     {
-      title: 'Project 1',
+      title: 'Starry Night',
       image: project1Image,
-      deployedLink: 'https://example.com/project1',
-      githubLink: 'https://github.com/yourusername/project1',
+      deployedLink: 'https://griffinb97.github.io/Starry-Night/index.html',
+      githubLink: 'https://github.com/GriffinB97/Starry-Night',
     },
     {
-      title: 'Project 2',
+      title: 'Flavor direction',
       image: project2Image,
-      deployedLink: 'https://example.com/project2',
-      githubLink: 'https://github.com/yourusername/project2',
+      deployedLink: 'https://the-flavor-direction.onrender.com/',
+      githubLink: 'https://github.com/GriffinB97/The-Flavor-Direction',
     },
     // Add more projects as needed
   ];
