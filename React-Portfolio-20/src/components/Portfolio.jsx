@@ -1,7 +1,9 @@
 import React from 'react';
 import Project from './Project';
-import project1Image from '../assets/project1.png';
-import project2Image from '../assets/project2.png';
+
+// Placeholder image URLs for projects
+const project1Image = 'https://www.artic.edu/iiif/2/28067/full/843,/0/default.jpg'; // Vincent van Gogh's Starry Night
+const project2Image = 'https://www.burgerfuzion.com/wp-content/uploads/2020/04/Classic-Cheeseburger-BurgerFuzion-1.jpg'; // Delicious burger
 
 function Portfolio() {
   const projects = [
@@ -12,7 +14,7 @@ function Portfolio() {
       githubLink: 'https://github.com/GriffinB97/Starry-Night',
     },
     {
-      title: 'Flavor direction',
+      title: 'Flavor Direction',
       image: project2Image,
       deployedLink: 'https://the-flavor-direction.onrender.com/',
       githubLink: 'https://github.com/GriffinB97/The-Flavor-Direction',

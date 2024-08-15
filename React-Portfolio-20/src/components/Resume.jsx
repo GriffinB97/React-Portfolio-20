@@ -1,12 +1,12 @@
 import React from 'react';
-import resumePDF from '../assets/your-resume.pdf'; // resume PDF here
 
 function Resume() {
   return (
     <section id="resume">
       <h2>Resume</h2>
       <p>
-        <a href={resumePDF} download="Would go here">Download My Resume</a>
+        <a href="#" onClick={(e) => e.preventDefault()}>Download My Resume</a>
+        {/* Will update with one later */}
       </p>
       <h3>Proficiencies</h3>
       <ul>
@@ -15,9 +15,10 @@ function Resume() {
         <li>Node.js</li>
         <li>Express.js</li>
         <li>HTML & CSS</li>
-        <li>SQL & NoSQL</li>
         <li>Git & GitHub</li>
+        {/* Will update with more later */}
       </ul>
+      <p>Resume will be updated later. Please check back soon!</p>
     </section>
   );
 }
